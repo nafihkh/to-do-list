@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+body {
+    background-color: #f5f5f5 !important;
+}
+#toDolist {
+    background-color: #fff;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+#inputbox {
+    border: 1px solid #d1d5db;
+}
+#button-addon2 {
+    background-color: #3B82F6;
+    border: none;
+    color: #fff;
+}
+#all,#active,#compleated {
+    border: 0;
+    background-color: #fff;
+    color: #6B7280;
+
+}
+#all:hover,#active:hover,#compleated:hover {
+
+  border-bottom: 2px solid #3B82F6;
+
+}
+.botoom,.task {
+    border-bottom: 1px solid #d1d5db;
+    
+}
